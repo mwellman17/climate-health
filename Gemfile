@@ -53,6 +53,7 @@ gem 'factory_bot', group: [:development, :test]
 gem 'database_cleaner', group: [:development, :test]
 gem 'valid_attribute', group: [:development, :test]
 gem 'shoulda-matchers', group: [:development, :test], require: false
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'foundation-rails', '~> 6.5'
 gem 'webpacker', '~> 3.3'
+gem "nokogiri", ">= 1.10.4"
