@@ -1,0 +1,42 @@
+upstream_node,downstream_node,betavalue
+Weakening Summertime Tropical Atmospheric Circulation,Decreased Hurricane Translocation Speed,90
+Decreased Hurricane Translocation Speed,Increased Point-Specific Duration of Hurricane Conditions,90
+Increased Point-Specific Duration of Hurricane Conditions,Increased Hurricane Rainfall in Affected Communities,80
+Increased Point-Specific Duration of Hurricane Conditions,Increased Hurricane Energy Transfer to Affected Communities,70
+Increased Hurricane Energy Transfer to Affected Communities,Increased Structural Damage,30
+Increasing Sea Surface Temperature,Increased Availability of Moisture to Hurricanes,95
+Increasing Sea Surface Temperature,Increased Availability of Energy to Hurricanes,95
+Increased Availability of Energy to Hurricanes,More Pronounced Rapid Intensification,90
+More Pronounced Rapid Intensification,Shorter Warning Window for Severe Hurricanes,60
+Shorter Warning Window for Severe Hurricanes,Decreased Ability to Prepare for Hurricane Impact,40
+Shorter Warning Window for Severe Hurricanes,Decreased Ability to Evacuate Before Hurricane Impact,40
+Increased Availability of Energy to Hurricanes,Increased Hurricane Size,85
+Increased Availability of Energy to Hurricanes,Increased Hurricane Maximum Wind Speeds,95
+Increased Hurricane Maximum Wind Speeds,Increased Structural Damage,99
+Increased Hurricane Maximum Wind Speeds,Increased Immediate Mortality,90
+Increased Hurricane Size,Increased Geographic Extent of Hurricane Impact,95
+Increased Geographic Extent of Hurricane Impact,Decreased Availability of Unaffected Areas Near Hurricane Disaster Areas,20
+Increased Availability of Moisture to Hurricanes,Increased Hurricane Rainfall in Affected Communities,80
+Increased Hurricane Rainfall in Affected Communities,Increased Surface Flooding,90
+Increased Hurricane Rainfall in Affected Communities,Increased Crop Damage,50
+Increased Hurricane Rainfall in Affected Communities,Increased Landslide Risk,60
+Increased Hurricane Maximum Wind Speeds,Increased Crop Damage,60
+Increased Hurricane Rainfall in Affected Communities,Increased Flash Flood Risk,40
+Increased Surface Flooding,Increased Drowning,70
+Increased Drowning,Increased Immediate Mortality,90
+Increased Surface Flooding,Increased Risk of Infectious Diseases,20
+Increased Surface Flooding,Increased Water Source Contamination,40
+Increased Water Source Contamination,Increased Risk of Infectious Diseases,80
+Increased Surface Flooding,Increased Damage to Infrastructure,40
+Increased Damage to Infrastructure,Decreased Population Mobility,10
+Decreased Population Mobility,Decreased Ability to Access Key Services,5
+Decreased Ability to Access Key Services,Increased Delayed Mortality,5
+Increased Hurricane Maximum Wind Speeds,Increased Damage to Infrastructure,80
+Increased Flash Flood Risk,Increased Immediate Mortality,30
+Increased Landslide Risk,Increased Immediate Mortality,30
+Increased Surface Flooding,Increased Water Damage to Homes,80
+Increased Water Damage to Homes,Increased Home Abandonment,20
+Increased Home Abandonment,Increased Demand for Sheltering,30
+Increased Home Abandonment,Increased Long-term Emigration from Affected Region,10
+Increased Water Damage to Homes,Increase in Toxic Mold Exposure,30
+Increase in Toxic Mold Exposure,Increased Risk of Asthma,40

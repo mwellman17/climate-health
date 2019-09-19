@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
+import { createBrowserHistory } from 'history'
+import HomePage from './HomePage'
 
-export const App = (props) => {
-  return (<h1>Make It So React</h1>)
+const App = props => {
+  return(
+
+  <Router history={browserHistory}>
+    <Route path='/' component={HomePage} />
+  </Router>
+
+  )
 }
 
 export default App

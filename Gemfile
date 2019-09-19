@@ -57,3 +57,4 @@ gem "devise", ">= 4.7.1"
 gem 'foundation-rails', '~> 6.5'
 gem 'webpacker', '~> 3.3'
 gem "nokogiri", ">= 1.10.4"
+gem 'active_model_serializers'
