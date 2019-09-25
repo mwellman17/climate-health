@@ -56,18 +56,31 @@ class HomePage extends Component {
       let data = this.state.hint
       if (data.source) {
         let xy = this.getXy(data)
+        let dataStyle = {
+          width: `${data.value.toString()}%`
+        }
         hint = (
           <Hint
             x={xy[0]}
             y={xy[1]}
             value={data}
           >
-            <div className="link-hint">
+            <div className="link-hint horizontal rounded">
               <p>
-                {`Source: ${data.source.name}`}
-                <br/>{`Target: ${data.target.name}`}
-                <br/>{`BetaValue: ${data.value}%`}
+                {data.source.full_name}
+                <br/>
+                <i class="fas fa-arrow-down"></i>
+                <br/>
+                {data.target.full_name}
               </p>
+                <div className="progress-bar horizontal">
+                <span>Betavalue:</span>
+                  <div className="progress-track">
+                    <div className="progress-fill" style={dataStyle}>
+                      <span>{`${data.value}%`}</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </Hint>
 
@@ -80,9 +93,9 @@ class HomePage extends Component {
           value={data}
           >
           <div className="node-hint">
+          <p className="node-header">{data.full_name}</p>
           <p>
-            {data.name}
-            <br/>{`Category: ${data.category}`}
+            {`Category: ${data.category}`}
             <br/>{`Topics: ${data.topic}`}
             <br/>{`Patients: ${data.patient}`}
             <br/>{`Diseases: ${data.disease}`}
@@ -100,9 +113,15 @@ class HomePage extends Component {
           links={this.state.links}
           width={1250}
           height={550}
-          nodePadding={40}
+          nodePadding={24}
           layout={1000}
-          hideLabels={true}
+          hideLabels={false}
+          style={{
+            labels: {
+              fontSize: '7pt',
+              fontWeight: 'bold'
+            }
+          }}
           onValueMouseOver={(datapoint, event)=>{
             this.createHint(datapoint)
           }}

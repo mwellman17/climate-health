@@ -1,5 +1,6 @@
 class Node < ApplicationRecord
   validates :name, presence: true
+  validates :label, presence: true
 
   has_many :links
   has_many :patient_groups
