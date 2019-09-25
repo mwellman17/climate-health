@@ -1,5 +1,13 @@
 class NodeSerializer < ActiveModel::Serializer
-  attributes :name, :color, :category, :patient, :disease, :topic
+  attributes :name, :full_name, :color, :category, :patient, :disease, :topic
+
+  def name
+    object.label
+  end
+
+  def full_name
+    object.name
+  end
 
   def color
     if object.category.name == "Earth System"
