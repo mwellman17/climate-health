@@ -11,6 +11,7 @@ class HomePage extends Component {
     }
     this.createHint = this.createHint.bind(this)
     this.hideHint = this.hideHint.bind(this)
+    this.fetchNodes = this.fetchNodes.bind(this)
   }
 
   componentDidMount() {
@@ -49,6 +50,26 @@ class HomePage extends Component {
     return [x, y]
   }
 
+  fetchNodes(event) {
+    fetch(`/api/v1/${event.target.id}`, { credentials: 'same-origin' })
+    .then(response => {
+      if (response.ok) {
+        return response;
+      } else {
+        let errorMessage = `${response.status} (${response.statusText})`,
+            error = new Error(errorMessage);
+        throw(error);
+      }
+    })
+    .then(response => {
+      return response.json();
+    })
+    .then(body => {
+      this.setState({ nodes: body.nodes, links: body.links })
+    })
+    .catch(error => console.error(`Error in fetch: ${error.message}`))
+  }
+
   render() {
 
     let hint
@@ -69,7 +90,7 @@ class HomePage extends Component {
               <p>
                 {data.source.full_name}
                 <br/>
-                <i class="fas fa-arrow-down"></i>
+                <i className="fas fa-arrow-down"></i>
                 <br/>
                 {data.target.full_name}
               </p>
@@ -108,12 +129,17 @@ class HomePage extends Component {
 
     return(
       <div>
+      <ul className="menu">
+        <li className="button" onClick={this.fetchNodes} id="sankey">All</li>
+        <li className="button" onClick={this.fetchNodes} id="cyclones">Tropical Cyclones</li>
+        <li className="button" onClick={this.fetchNodes} id="rainfall">Rainfall</li>
+      </ul>
         <Sankey
           nodes={this.state.nodes}
           links={this.state.links}
           width={1250}
-          height={550}
-          nodePadding={24}
+          height={600}
+          nodePadding={25}
           layout={1000}
           hideLabels={false}
           style={{
