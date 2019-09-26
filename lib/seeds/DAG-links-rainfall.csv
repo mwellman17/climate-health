@@ -1,0 +1,24 @@
+upstream_node,downstream_node,betavalue
+Warmer Atmospheric Temperatures,Increased Moisture Holding Capacity of Air,90
+Increased Moisture Holding Capacity of Air,Increased Potential Precipitation,90
+Increased Potential Precipitation,"Increased Risk of, and Intensity of, Heavy Rainfall Events (Deluges)",90
+Increased Potential Precipitation,Increased Total Seasonal Rainfall (In regions that are already wet),90
+"Increased Risk of, and Intensity of, Heavy Rainfall Events (Deluges)",Increased Flash Flood Risk,99
+"Increased Risk of, and Intensity of, Heavy Rainfall Events (Deluges)",Increased Crop Damage,20
+Increased Flash Flood Risk,Increased Risk of Injury,30
+Increased Flash Flood Risk,Increased Drowning,90
+Increased Flash Flood Risk,Increased Damage to Infrastructure,90
+Increased Damage to Infrastructure,Increased Risk of Injury,40
+Increased Crop Damage,Reduced Agricultural Yields,90
+Reduced Agricultural Yields,Reduced Economic Stability (Commercial Farming),80
+Reduced Agricultural Yields,Reduced Food Security (Subsistence Farming),80
+"Increased Risk of, and Intensity of, Heavy Rainfall Events (Deluges)",Increased Surface Flooding,70
+Increased Surface Flooding,Increased Drowning,70
+Increased Surface Flooding,Increased Damage to Infrastructure,60
+Increased Surface Flooding,Increased Risk of Inundation of Homes,80
+Increased Risk of Inundation of Homes,Increase in Toxic Mold Exposure,30
+Increased Surface Flooding,Increased Risk of Bacterial Skin Infections,60
+Increased Surface Flooding,Increased Risk of Waterborne Infectious Disease,50
+Increased Total Seasonal Rainfall (In regions that are already wet),Improved Agricultural Scenario (Some Regions),40
+Increased Total Seasonal Rainfall (In regions that are already wet),Waterlogged Soil,30
+Waterlogged Soil,Reduced Agricultural Yields,50

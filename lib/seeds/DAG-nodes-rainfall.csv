@@ -1,0 +1,21 @@
+label,node_name,node_category,node_topic,node_disease,node_patient
+Improved Agriculture,Improved Agricultural Scenario (Some Regions),Human Impact,Rainfall,,
+Incr. Moisture,Increased Moisture Holding Capacity of Air,Earth System,Rainfall,,
+Incr. Precipitation,Increased Potential Precipitation,Earth System,Rainfall,,
+Incr. Bacterial Infections,Increased Risk of Bacterial Skin Infections,Health Impact,Rainfall,Infectious Disease,All
+Incr. Crop Damage,Increased Crop Damage,Human Impact,Rainfall,,
+Incr. Drowning,Increased Drowning,Health Impact,Rainfall,Respiratory,All
+Incr. Flash Flooding,Increased Flash Flood Risk,Earth System,Rainfall,,
+Incr. Infrastructure Damage,Increased Damage to Infrastructure,Human Impact,Rainfall,,
+Incr. Injury,Increased Risk of Injury,Health Impact,Rainfall,,
+Incr. Inundation,Increased Risk of Inundation of Homes,Human Impact,Rainfall,,
+Incr. Surface Flooding,Increased Surface Flooding,Earth System,Rainfall,,
+Incr. Waterborne Infectious Diseases,Increased Risk of Waterborne Infectious Disease,Health Impact,Rainfall,Infectious Disease,All
+Incr. Deluges,"Increased Risk of, and Intensity of, Heavy Rainfall Events (Deluges)",Earth System,Rainfall,,
+Incr. Total Rainfall,Increased Total Seasonal Rainfall (In regions that are already wet),Earth System,Rainfall,,
+Decr. Agricultural Yields,Reduced Agricultural Yields,Human Impact,Rainfall,,
+Decr. Economic Stability,Reduced Economic Stability (Commercial Farming),Human Impact,Rainfall,,
+Decr. Food Security,Reduced Food Security (Subsistence Farming),Human Impact,Rainfall,,
+Incr. Toxic Mold,Increase in Toxic Mold Exposure,Human Impact,Rainfall,,
+Warmer Temperatures,Warmer Atmospheric Temperatures,Earth System,Rainfall,,
+Waterlogged Soil,Waterlogged Soil,Human Impact,Rainfall,,
